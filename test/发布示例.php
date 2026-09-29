@@ -1,6 +1,5 @@
 <?php
 use usualtool\KouZi\KouZi;
-use usualtool\Lib\Inc;
 $workid="工作流ID";
 $kouzi=new KouZi($workid);
 $ref_token=$kouzi->GetRefToken();
