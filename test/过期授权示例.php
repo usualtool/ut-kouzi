@@ -1,7 +1,6 @@
 <?php
 use usualtool\KouZi\KouZi;
 use usualtool\Lib\Inc;
-$config=KouZi::GetConfig();
 $kouzi=new KouZi(0);
 if(empty($_GET["code"])):
     $kouzi->GetLogin();
